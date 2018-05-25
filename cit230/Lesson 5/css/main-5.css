@@ -1,0 +1,51 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: "Lucida Console", Monaco, monospace  /* Declare the base font-family */
+}
+
+header, nav, main, footer { 
+  max-width: 1920; 
+}
+
+header {}
+h1 {
+	font-family: Verdana, Geneva, sans-serif
+	}
+header img {}
+header .subheading {}
+
+nav {}
+nav button {}
+nav ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;}
+nav ul li {
+	float: left
+	}
+nav ul li a { 
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+nav ul li.active a {
+	background-color: #f0f
+	}
+nav ul li a:hover {
+	background-color: #06F
+		}
+@media only screen and (min-width: 64em){
+	.forecast{
+		display: none;
+	}
+}
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+footer {}
