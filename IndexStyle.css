@@ -4,9 +4,11 @@
 		padding-left: 25px;
 		}
 	img {
-        position: absolute;
-        box-shadow: 5px 5px 8px #444444;
-		width: 150px;
+	position: absolute;
+	box-shadow: 5px 5px 8px #444444;
+	width: 150px;
+	left: 900px;
+	top: 30px;
     }
     header {
         text-align: left;
@@ -21,10 +23,6 @@
         border-radius: 8px;
 		text: beige
         
-    }
-    #name {
-        font-size: 48;
-		padding: 175px;
     }
     #contents {
         width: 900px;
