@@ -1,14 +1,18 @@
 * {
   box-sizing: border-box;
 }
-h1{
+h1, h3{
 	text-align: center;
 	
 }
 img{
 	align: center;
 }
+.wrapper{
+	max-width: 1000px;
+}
 .header {
+	height:10%;
   border: 1px solid blue;
   padding: 15px;
   text-align: center;
@@ -16,30 +20,34 @@ img{
 }
 /* For desktop: */
 .col-one {
+  height: 80%;
   width: 33.33%;
   float: left;
-  padding: 50px;
+  padding: 15px;
   border: 1px solid blue;
   background-color: #E2DDDD;
 }
 
 .col-two {
-  
+  height:80%;
   width: 33.33%;
   float: left;
-  padding: 50px;
+  padding: 15px;
   border: 1px solid blue;
   background-color: #E2DDDD;
 }
 
 .col-three {
+  height:80%;
   width: 33.33%;
   float: left;
-  padding: 50px;
+  padding: 15px;
   border: 1px solid blue;
   background-color: #E2DDDD;
 }
 .footer {
+	text-align: center;
+	height:10%;
   border: 1px solid blue;
   padding: 15px;
   background-color: #BBCFF9;
