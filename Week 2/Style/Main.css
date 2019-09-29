@@ -1,36 +1,48 @@
 * {
   box-sizing: border-box;
 }
-
+h1{
+	text-align: center;
+	
+}
+img{
+	align: center;
+}
 .header {
-  border: 1px solid red;
+  border: 1px solid blue;
   padding: 15px;
   text-align: center;
+   background-color: #BBCFF9;
 }
 /* For desktop: */
 .col-one {
-  width: 33%;
+  width: 33.33%;
   float: left;
-  padding: 15px;
-  border: 1px solid red;
+  padding: 50px;
+  border: 1px solid blue;
+  background-color: #E2DDDD;
 }
 
 .col-two {
-  width: 33%;
+  
+  width: 33.33%;
   float: left;
-  padding: 15px;
-  border: 1px solid red;
+  padding: 50px;
+  border: 1px solid blue;
+  background-color: #E2DDDD;
 }
 
 .col-three {
-  width: 33%;
+  width: 33.33%;
   float: left;
-  padding: 15px;
-  border: 1px solid red;
+  padding: 50px;
+  border: 1px solid blue;
+  background-color: #E2DDDD;
 }
 .footer {
-  border: 1px solid red;
+  border: 1px solid blue;
   padding: 15px;
+  background-color: #BBCFF9;
 }
 
 
