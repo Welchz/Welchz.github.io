@@ -96,7 +96,7 @@ nav a {
 [class*="col-"] {
     width: 50%;
   }
-
+}
 /* Desktop View */
 @media only screen and (min-width: 60em) {
 nav a {
@@ -106,7 +106,7 @@ nav a {
 	display: flex;
 	max-width: 1000px;
 }
-}
+
 [class*="col-"] {
     width: 50%;
   }
