@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Mitchell Thomas">
+<meta name="description" content="This is my fourth page for CIT 230, it will contain my weather websites Preston page.">
+
+<title>Preston Page</title>
+<script>
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+  "Saturday"];
+var today = new Date();
+var date = today.getDate()+", "+today.getFullYear();
+
+</script>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+<header>
+ <h1> <img src="images/inclement_weather.png" alt="Clouds With different percipitation" > StormStop </h1> <h3>Dont let the storms stop you!</h3>
+
+</header>
+ <nav>
+ <ul>
+  <li><a href=index.html>Home</a></li>
+  <li><a href=#>Preston</a></li>
+  <li><a href=#>Soda Springs</a></li>
+  <li><a href=#>Fish Haven</a></li>
+  <li><a href=#>Storm Center</a></li>
+  <li><a href=#>Gallery</a></li>
+ </ul>
+</nav>
+ <h1>Preston</h1>
+ <hr>
+ <section class="widget">
+ <p>Weather Summary</p>
+ </section>
+ <section class ="widget">
+ <p>5 day forecast </p>
+ </section>
+ <section class = "widget">
+   <article>
+     <h3> Article Title</h3>
+     <h5> by StormStop</h5>
+  </article>
+ </section>
+   <section class= "widget">
+     <p>Map || Contact Information</p>
+   </section>
+<footer>
+<p>© 2019 | <a href="welchz.github.io">Mitchell Thomas</a> | Idaho | <a href="https://www.byui.edu/online">BYUi Online Learning </a></p>
+            <p><script> document.write(dayNames[today.getDay()]+", "+monthNames[today.getMonth()]+" " + date)</script></p>
+</footer>
+</body>
