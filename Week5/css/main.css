@@ -64,7 +64,13 @@ nav a:hover {
 	background-color: #166088;
 	color: #c0d6df;
 }
+.navBar{
 
+}
+.navBaractive{
+  background-color: #166088;
+	color: #c0d6df;
+}
 footer {
 	flex: 0 1 100%;
 	height: 4rem;
