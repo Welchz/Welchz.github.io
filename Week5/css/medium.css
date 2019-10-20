@@ -1,0 +1,43 @@
+@media only screen and (min-width: 37.5em) {
+.menuButton{
+	display: none;
+}
+
+#nav{
+	display: block;
+}
+#nav ul {
+		display: flex;
+}
+
+#nav ul li {
+	 flex: 1 1 100%;
+	 }
+
+#nav a {
+		font-size: 12px;
+	}
+
+.hideable
+{
+  display: block;
+	width: 90%;
+  margin: 0px;
+}
+
+.forecast{
+	margin-top: 7px;
+  margin-bottom: 7px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #166088;
+  border-width: 5px;
+	display: block;
+}
+article img {
+		float: right;
+    width: 50%;
+		height: 150px;
+    margin-top: 50px;
+
+}
