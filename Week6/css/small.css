@@ -77,7 +77,7 @@ header, #nav, #navbutton{
   display: none;
 }
 
-.widget, .weather_widget{
+.widget{
   margin-top: 7px;
   margin-bottom: 7px;
   padding: 10px;
@@ -85,17 +85,30 @@ header, #nav, #navbutton{
   border-color: #166088;
   border-width: 5px;
 }
-.info{
+.weather_widget{
+  margin-top: 7px;
+  margin-bottom: 7px;
+  height: 295px;
+  border-style: solid;
+  border-color: #166088;
+  border-width: 5px;
+  position: relative;
+}
+
+
+.weather_summary{
+  position: absolute;
+  top: 8px;
+  left: 16px;
   background: white;
   width: 145px;
-  padding: 50px
+  padding-left: 25px;
+  padding-right: 25px;
+  list-style: none;
 }
-.weather_widget{
-  background-image: url("../images/town.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  height: 375px;
+picture{
+  float: right;
+
 }
 /* Body and Footer Items */
 body {

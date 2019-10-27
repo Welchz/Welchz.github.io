@@ -24,7 +24,9 @@
 	width: 90%;
   margin: 0px;
 }
-
+.weather_widget{
+	height: 390px;
+}
 .forecast{
 	margin-top: 7px;
   margin-bottom: 7px;
