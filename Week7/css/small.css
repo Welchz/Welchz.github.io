@@ -9,13 +9,7 @@ header, footer {
     border-radius: 5px;
 
 }
-#pancake_alert{
-  width: 100%;
-  border-style: ridge;
-  border-color: red;
-  border-width: 5px;
-  text-align: center;
-}
+
 /* Header */
 header h1, h3{
 
@@ -27,7 +21,25 @@ header img{
 	width: 20%;
 	float: right;
 }
-
+.container{
+  max-width: 950px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto;
+  margin-bottom: 25px;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  max-width: 425px;
+  box-shadow: 5px 10px 10px #888888;
+}
+.containerimg {
+max-width: 420px;
+max-height: 300px;
+}
 /* Navigation Bar */
 
 .menuButton{
@@ -72,44 +84,7 @@ header, #nav, #navbutton{
    padding: 0px;
  }
 
- /* Widgets */
- .hideable , .forecast{
-  display: none;
-}
 
-.widget{
-  margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 10px;
-  border-style: solid;
-  border-color: #166088;
-  border-width: 5px;
-}
-.weather_widget{
-  margin-top: 7px;
-  margin-bottom: 7px;
-  height: 295px;
-  border-style: solid;
-  border-color: #166088;
-  border-width: 5px;
-  position: relative;
-}
-
-
-.weather_summary{
-  position: absolute;
-  top: 8px;
-  left: 16px;
-  background: white;
-  width: 145px;
-  padding-left: 25px;
-  padding-right: 25px;
-  list-style: none;
-}
-picture{
-  float: right;
-
-}
 /* Body and Footer Items */
 body {
 	font-family: 'Raleway', sans-serif;
@@ -118,8 +93,9 @@ body {
 p img {
     width:auto;
 }
-article p {
-    text-align: justify;
+p {
+    font-size: 18px;
+    text-align: center;
 }
 
 article img {

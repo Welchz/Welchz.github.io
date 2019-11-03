@@ -24,22 +24,6 @@
 	width: 90%;
   margin: 0px;
 }
-.weather_widget{
-	height: 390px;
-}
-.forecast{
-	margin-top: 7px;
-  margin-bottom: 7px;
-  padding: 10px;
-  border-style: solid;
-  border-color: #166088;
-  border-width: 5px;
-	display: block;
-}
-article img {
-		float: right;
-    width: 50%;
-		height: 150px;
-    margin-top: 50px;
-
+.container{
+  grid-template-columns: auto auto;
 }
