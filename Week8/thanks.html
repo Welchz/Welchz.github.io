@@ -41,52 +41,10 @@ var date = today.getDate()+", "+today.getFullYear();
   <li><a href=# class = "navBar">Gallery</a></li>
  </ul>
 </div>
- <h1>Storm Center Form</h1>
+ <h1>Thank You for your storm submission!</h1>
+ <a href=stormcenter.html>Return to form</a>
  <hr>
- <form action="thanks.html">
-   <div class =  "container">
-   <p>Full Name:</p>
-  <input type="text" name="Name" value="First - Last">
 
-   <p>Email:</p>
-  <input type="email" name="email" value="Johndoe@stormstop.org">
-  <p>Telephone number:</p>
-  <input type="tel" name="telephone">
-  <p>Zip Code:</p>
-  <input type="number" name="zip">
-  <p>Storm Date:</p>
-  <input type="date" name="stormdate">
-  <p>Storm Type</p>
-  <input list="storms">
-  <datalist id="storms">
-    <option value="Flash Flood">
-    <option value="Hail">
-    <option value="Hurricane">
-    <option value="Thunderstorm">
-    <option value="Tornado">
-  </datalist>
-<p>Storm Region</p>
-<select name="stormregion">
-<option value="default" selected disabled>Select Region</option>
-<option value="preston">Preston</option>
-<option value="sodaSprings">Soda Springs</option>
-<option value="fishHaven">Fish Haven</option>
-</select>
-  <p>Storm Severity</p>
-  <input type="range(1,10)" name="severity" value="1-10">
-
-  <p>User In-Danger Level<br><br>
-  <input type="radio" name="danger" value="yes" checked>Yes  |
-  <input type="radio" name="danger" value="maybe"> Maybe   |
-  <input type="radio" name="danger" value="no"> No
-
-</p>
-
-  <textarea name="message" rows="10" cols="30" value="Additional information or comments"> Additional Information and comments</textarea>
-</div>
-  <input class= "submit" type="submit" value="Submit">
- </form>
-<hr>
 <footer>
 <p>© 2019 | <a href="welchz.github.io">Mitchell Thomas</a> | Idaho | <a href="https://www.byui.edu/online">BYUi Online Learning </a></p>
             <p><script> document.write(dayNames[today.getDay()]+", "+monthNames[today.getMonth()]+" " + date)</script></p>
