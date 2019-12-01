@@ -1,0 +1,14 @@
+@media only screen and (min-width: 60em) {
+#nav a {
+		font-size: 18px;
+    }
+		.container{
+		  grid-template-columns: auto auto;
+		}
+		.containerimg {
+		max-width: 275px;
+		max-height: 300px;
+		}
+		.container > div:hover {
+		  box-shadow: 5px 10px 10px #444444;
+		}

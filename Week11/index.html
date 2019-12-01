@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Mitchell Thomas">
+<meta name="description" content="This is my fifth page for CIT 230, it will contain my weather websites Preston page with some additions made.">
+
+<title>Preston Page</title>
+<script>
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+  "Saturday"];
+var today = new Date();
+var date = today.getDate()+", "+today.getFullYear();
+
+</script>
+<script src ="js/active.js"></script>
+<script src ="js/windchill.js"></script>
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/small.css" rel="stylesheet" type="text/css">
+<link href="css/medium.css" rel="stylesheet" type="text/css">
+<link href="css/large.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body >
+<header>
+ <h1> <img src="images/inclement_weather.png" alt="Clouds With different percipitation" > StormStop </h1> <h3>Dont let the storms stop you!</h3>
+
+</header>
+  <button onclick="toggleMenu()" class = "menuButton">Menu</button>
+ <div id="nav">
+ <ul>
+  <li><a href="index.html" class = "navBaractive">Home</a></li>
+  <li><a href="Preston/preston.html" class = "navBar">Preston</a></li>
+  <li><a href="SodaSprings/sodaSprings.html" class = "navBar">Soda Springs</a></li>
+  <li><a href="fishHaven/fishHaven.html" class = "navBar">Fish Haven</a></li>
+  <li><a href="StormCenter/stormcenter.html" class = "navBar">Storm Center</a></li>
+  <li><a href="Gallery/gallery.html" class = "navBar">Gallery</a></li>
+ </ul>
+</div>
+<div class = "cards">
+<div class = "townCard">
+<h2>Fish Haven</h2>
+<p>Motto: This is Fish Heaven.
+  <br>Founded: 1864
+  <br>Population: 501
+  <br>Avg. Rainfall: 14.2</p>
+  <img src="/lesson11/images/fishhaven.jpg" alt="a picture of fish haven">
+</div>
+<div class = "townCard">
+<h2>Preston</h2>
+<p>Motto: Home of Napoleon Dynamite.
+  <br>Founded: 1866
+  <br>Population: 5204
+  <br>Avg. Rainfall: 16.65</p>
+  <img src="/lesson11/images/preston.jpg" alt="a picture of preston">
+</div>
+<div class = "townCard">
+<h2>Soda Springs</h2>
+<p>Motto: Historic Oregon Trail Oasis. The Soda is on Us.
+  <br>Founded: 1858
+  <br>Population: 2985
+  <br>Avg. Rainfall: 15.75</p>
+  <img src="/lesson11/images/sodasprings.jpg" alt="a picture of soda springs">
+</div>
+</div>
+<div class = "townCard">
+  <article>
+    <img src="images/cloudy.png" alt="a picture of a rain cloud" >
+    <h3> Article Title</h3>
+    <h5> by StormStop</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis neque doloribus voluptates facilis laboriosam accusantium excepturi! Error assumenda, dicta non excepturi dolorem iusto quos ipsam quae, commodi adipisci voluptatum repellat!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aut a officiis, possimus incidunt nesciunt eum eligendi excepturi magni pariatur minima porro magnam at eos est perferendis repellat eveniet quis</p>
+
+ </article>
+</div>
+  <div class= "townCard">
+    <h3>Contact Information</h3>
+    <p> Phone: 123-456-7890 </p>
+    <p> Email: info@StormStop.com </p>
+
+  </div>
+<footer>
+<p>© 2019 | <a href="welchz.github.io">Mitchell Thomas</a> | Idaho | <a href="https://www.byui.edu/online">BYUi Online Learning </a></p>
+            <p><script> document.write(dayNames[today.getDay()]+", "+monthNames[today.getMonth()]+" " + date)</script></p>
+</footer>
+</body>
+</html>
