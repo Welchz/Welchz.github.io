@@ -1,0 +1,29 @@
+@media only screen and (min-width: 37.5em) {
+.menuButton{
+	display: none;
+}
+
+#nav{
+	display: block;
+}
+#nav ul {
+		display: flex;
+}
+
+#nav ul li {
+	 flex: 1 1 100%;
+	 }
+
+#nav a {
+		font-size: 12px;
+	}
+
+.hideable
+{
+  display: block;
+	width: 90%;
+  margin: 0px;
+}
+.container{
+  grid-template-columns: auto auto;
+}
